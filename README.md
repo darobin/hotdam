@@ -13,6 +13,6 @@ Note that this proposal reuses ideas from Fenced Frames that work for both, inst
 
 Tk notes
 * **bundles**: only load bundles and allow no further network interaction. This enables the use of arbitrary sizes.
-* **video**: require that the `src` be static and forbid `autoplay`.
+* **video**: require that the `src` be static. There is still a timing attack.
 * **top level**: content inside the `ad` element cannot know that it is not at the top level, media queries work on 
   that assumption so that ads can easily be responsive.
